@@ -21,7 +21,6 @@ namespace gui
 			{
 				case "bno_cal_status":
 				{
-					bnoCalPane.SetBnoSysCal(_inputArr[1]);
 					bnoCalPane.SetBnoGyroCal(_inputArr[2]);
 					bnoCalPane.SetBnoAccelCal(_inputArr[3]);
 					bnoCalPane.SetBnoMagCal(_inputArr[4]);

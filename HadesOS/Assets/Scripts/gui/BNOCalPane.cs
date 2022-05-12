@@ -5,9 +5,6 @@ namespace gui
 {
 	public class BNOCalPane : MonoBehaviour
 	{
-		public GameObject sysCal;
-		TMP_Text sysCalText;
-		
 		public GameObject gyroCal;
 		TMP_Text gyroCalText;
 
@@ -19,16 +16,9 @@ namespace gui
 		
 		void Start()
 		{
-			sysCalText = sysCal.transform.Find("FieldText").GetComponent<TMP_Text>();
 			gyroCalText = gyroCal.transform.Find("FieldText").GetComponent<TMP_Text>();
 			accelCalText = accelCal.transform.Find("FieldText").GetComponent<TMP_Text>();
 			magCalText = magCal.transform.Find("FieldText").GetComponent<TMP_Text>();
-		}
-
-		public void SetBnoSysCal(string calStatus)
-		{
-			sysCalText.text = calStatus;
-			sysCalText.color = calStatus.Equals("0") ? Color.red : Color.green;
 		}
 		
 		public void SetBnoGyroCal(string calStatus)
