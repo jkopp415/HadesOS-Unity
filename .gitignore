@@ -43,7 +43,7 @@ Thumbs.db
 ###
 # Files for Rider
 ###
-shelf/
-.idea/workspace.xml
-.idea/tasks.xml
-out/
+**/shelf/
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/out/
