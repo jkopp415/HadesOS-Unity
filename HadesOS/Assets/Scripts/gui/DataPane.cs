@@ -21,6 +21,7 @@ namespace gui
 			{
 				case "bno_cal_status":
 				{
+					// REMOVE SYSCAL FROM ARDUINO DATA PACKET!!!
 					bnoCalPane.SetBnoGyroCal(_inputArr[2]);
 					bnoCalPane.SetBnoAccelCal(_inputArr[3]);
 					bnoCalPane.SetBnoMagCal(_inputArr[4]);
