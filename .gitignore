@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Files for Rider
+/shelf/
+/.idea/workspace.xml
+/.idea/tasks.xml
+/out/
